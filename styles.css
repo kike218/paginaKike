@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151212;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .header-contact {
+    display: flex;
+    align-items: center;
+}
+
+header .header-contact p {
+    margin: 0 10px;
+}
+
+header .header-contact button {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('img/image.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero h1 span {
+    color: #b30000;
+}
+
+.brands {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.brands h2 {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brand-logos img {
+    max-width: 100px;
+    margin: 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.brand-logos img:hover {
+    opacity: 1;
+}
+
+.luxury-cars {
+    padding: 50px 20px;
+    background-color: #151212;
+    color: #000000;
+}
+
+.luxury-cars h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #fff
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.car-item {
+    background-color: #eee8e8;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.car-item:hover {
+    transform: scale(1.05);
+}
+
+.car-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.car-details p {
+    margin: 5px 0;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-weight: 300;
+}
+
+.enquiry {
+    background-color: #151212;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.enquiry h2 {
+    font-weight: 300;
+}
+
+.enquiry form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enquiry label,
+.enquiry input,
+.enquiry textarea {
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.enquiry button {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-info,
+.quick-links,
+.connect,
+.newsletter {
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.newsletter form input,
+.newsletter form button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter form button {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
